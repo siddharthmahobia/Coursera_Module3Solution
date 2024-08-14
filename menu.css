@@ -1,0 +1,170 @@
+body{
+    margin: auto;
+}
+
+/* ourmenu css */
+#ourmenu{
+    height: 80px;
+    /* border: 5px solid red; */
+    font-size: 32px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 2%;
+}
+
+/* category css */
+#category{
+    height: 500px;
+    /* border: 5px solid blue; */
+
+}
+
+.categoryoutline{
+    height: 150px;
+    width: 28%;
+    border: 2px solid black;
+    margin-left: 4%;
+    margin-top: 3%;
+    float: left;
+    background-color: lightgray;
+
+}
+
+.categorycontent1{
+    height: 27px;
+    width: 23%;
+    border: 2px solid black;
+    margin-left: 76%;
+    font-size: 20px;
+    font-family: serif;
+    padding-left: 1%;
+    padding-top: 1%;
+    text-align: center;
+    border-right: none;
+    border-top: none;
+    color: white;
+    background-color: #f16969;
+
+}
+
+.categorycontent2{
+    height: 90px;
+    width: 98%;
+    /* border: 5px solid aqua; */
+    font-size: 16px;
+    font-family: serif;
+    padding-left: 3%;
+    padding-top: 2%;
+
+}
+
+#categorycontent1colorchange1{
+    background-color: #6a6aec;
+}
+
+#categorycontent1colorchange2{
+    background-color: #f9c15c;
+}
+
+/* 
+Responsive designing */
+@media screen and (max-width:1600px){
+    body{
+        /* background-color: red; */
+    }
+
+    .categoryoutline {
+        width: 30%;
+        margin-left: 2%;
+
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        /* background-color: blue; */
+    }
+
+    .categoryoutline {
+        width: 30%;
+        margin-left: 2%;
+        height: 160px;
+
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        /* background-color: aqua; */
+    }
+
+    #category{
+        margin-left: 2%;
+    }
+
+    .categoryoutline{
+        width: 31%;
+        margin-left: 1%;
+        height: 182px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        /* background-color: green; */
+    }
+
+    .categoryoutline {
+            width: 48%;
+            margin-left: 1%;
+            height: 182px;
+        }
+
+        #categoryoutlinewidth {
+            width: 86%;
+            margin-left: 5%;
+            height: 122px;
+        }
+}
+
+@media screen and (max-width:800px){
+    body{
+        /* background-color: yellow; */
+    }
+
+    .categorycontent1 {
+        width: 25%;
+        margin-left: 74%;
+
+    }
+
+    .categoryoutline {
+        height: 192px;
+    }
+
+    #categoryoutlinewidth {
+        width: 87%;
+        margin-left: 6%;
+        height: 128px;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        /* background-color: indigo; */
+    }
+
+    .categoryoutline {
+        width: 95%;
+        margin-left: 1%;
+        height: 145px;
+    }
+
+    #categoryoutlinewidth {
+        width: 95%;
+        margin-left: 1%;
+        height: 145px;
+    }
+
+}
